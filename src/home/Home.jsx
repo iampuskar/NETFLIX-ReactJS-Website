@@ -1,5 +1,6 @@
 import Featured from "../components/featured/Featured"
 import Navbar from "../components/navbar/Navbar"
+import List from "../components/list/List"
 import "./home.scss"
 
 function Home() {
@@ -7,7 +8,10 @@ function Home() {
         <div className="home">
             <Navbar/>
             <Featured type = ""/>
-              
+            <List/>  
+            <List/>  
+            <List/>  
+            <List/>  
         </div>
     )
 }
